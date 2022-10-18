@@ -94,10 +94,12 @@
             <artifactId>flowable5-spring</artifactId>
         </dependency>
 
+        <!-- заглушки
         <dependency>
             <groupId>ru.runa.wfe</groupId>
             <artifactId>wfe-webservice-client</artifactId>
         </dependency>
+        -->
 
         <!--dependency>
             <groupId>commons-javaflow</groupId>

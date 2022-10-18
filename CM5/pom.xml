@@ -10,6 +10,7 @@
     <description>CompanyMedia 4/5. Корневой модуль для сборки проекта.</description>
 
     <modules>
+        <module>cm-stubs</module>
         <module>Core</module>
         <module>Performance</module>
         <module>Workstation</module>
@@ -510,7 +511,8 @@
             <dependency>
                 <groupId>com.github.jsqlparser</groupId>
                 <artifactId>jsqlparser</artifactId>
-                <version>4.1-RC2</version>
+                <!-- Вместо 4.1-RC2 -->
+                <version>4.0</version>
             </dependency>
 
             <dependency>

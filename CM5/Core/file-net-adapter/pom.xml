@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>filenet-adapter</artifactId>
@@ -10,12 +11,18 @@
         <artifactId>core</artifactId>
         <version>1.2.3</version>
     </parent>
-    
+
     <properties>
         <filenet.version>5.2.0</filenet.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>ru.intertrust</groupId>
+            <artifactId>cm-stubs</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.jboss.spec</groupId>
             <artifactId>jboss-javaee-6.0</artifactId>
@@ -23,11 +30,14 @@
             <type>pom</type>
             <scope>provided</scope>
         </dependency>
+
         <dependency>
             <groupId>ru.intertrust.cm-sochi</groupId>
             <artifactId>dao-api</artifactId>
             <version>${project.version}</version>
         </dependency>
+
+        <!-- заглушки
         <dependency>
             <groupId>com.filenet</groupId>
             <artifactId>fn-download-api</artifactId>
@@ -51,13 +61,14 @@
             <artifactId>ibm-xlxp-api</artifactId>
             <version>${filenet.version}</version>
         </dependency>
-        
+
         <dependency>
             <groupId>com.ibm.xml.xlxp</groupId>
             <artifactId>ibm-xlxp-scan</artifactId>
             <version>${filenet.version}</version>
         </dependency>
-        
+        -->
+
     </dependencies>
 
     <build>
