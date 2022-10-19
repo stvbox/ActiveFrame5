@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="gui-client-impl" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <option name="VM_PARAMETERS" value="-Xmx2048m" />
+    <option name="SHELL_PARAMETERS" value="-nostartServer -war $MODULE_DIR$/../../../../../WD -bindAddress localhost" />
+    <option name="USE_SUPER_DEV_MODE" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="D:/SOFT/jdk-11.0.16.1-full" />
+    <option name="WORKING_DIRECTORY" value="E:\WD" />
+    <module name="gui-client-impl" />
+    <method v="2" />
+  </configuration>
+</component>
